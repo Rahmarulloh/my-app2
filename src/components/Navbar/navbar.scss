@@ -46,6 +46,28 @@
 
                 }
 
+                & > .dropdown {
+                    width: 200px;
+                    list-style: none;
+                    background: #fff;
+                    position: absolute;
+                    border-top: 3px solid #53812d;
+                    
+                    & > .dropdown-items {
+                        line-height: 30px;
+                        
+                        & > a {
+                            font-size: 13px;
+                            color: #4c4c4c;
+                            text-align: center;
+                            text-decoration: none;
+                            z-index: 999 !important;
+                        }
+
+                    }
+
+                }
+
             }
 
         }

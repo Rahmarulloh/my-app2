@@ -30,16 +30,16 @@ const Navbar = () => {
             <a href="#">
               <span>TIZIM HAQIDA</span>
               <BiChevronDown className="navbar-icons" />
-            </a>{" "}
+            </a>
             <ul className="dropdown">
-              <li className="dropdown-items">Xizmat haqida batafsil</li>
-              <li className="dropdown-items">Billing tizimi haqida <FaAngleRight /></li>
-              <li className="dropdown-items">Xavfsizlik va maxfiylik</li>
-              <li className="dropdown-items">Qo'shimcha ilovalarni yuklab olish</li>
-              <li className="dropdown-items">FAQ</li>
-              <li className="dropdown-items">Infografika</li>
-              <li className="dropdown-items">Mobil ilova</li>
-              <li className="dropdown-items">Axolini qamrovi diagrammasi</li>
+              <li className="dropdown-items"><a href="#">Xizmat haqida batafsil</a></li>
+              <li className="dropdown-items"><a href="#">Billing tizimi haqida <FaAngleRight /></a></li>
+              <li className="dropdown-items"><a href="#">Xavfsizlik va maxfiylik</a></li>
+              <li className="dropdown-items"><a href="#">Qo'shimcha ilovalarni yuklab olish</a></li>
+              <li className="dropdown-items"><a href="#">FAQ</a></li>
+              <li className="dropdown-items"><a href="#">Infografika</a></li>
+              <li className="dropdown-items"><a href="#">Mobil ilova</a></li>
+              <li className="dropdown-items"><a href="#">Axolini qamrovi diagrammasi</a></li>
             </ul>
           </li>
           <li>
